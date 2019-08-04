@@ -21,7 +21,8 @@ module.exports = {
       colors: {
         'adb-teal': '#0086ad',
         'adb-yellow': '#FFe831',
-        'adb-pink': '#d6144e'
+        'adb-pink': '#d6144e',
+        'adb-background': '#FAFAFB'
       }
     }
   },
