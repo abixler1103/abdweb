@@ -2,15 +2,14 @@
   export let segment;
 </script>
 
+<!-- Safe to delete this file -->
+
 <div class="bg-adb-pink h-2">&nbsp;</div>
-<nav class="flex items-center justify-between flex-wrap bg-adb-teal p-6">
+<nav class="flex items-center justify-between flex-wrap bg-adb-background p-6">
 
   <div class="flex items-center flex-shrink-0 text-white mr-6">
     <a href="/">
-      <img
-        class="h-10"
-        src="/abd_logo_transparent.png"
-        alt="Ashley Bixler Design Logo" />
+      <img src="/abd_logo_transparent.png" alt="Ashley Bixler Design Logo" />
     </a>
 
     <span class="font-semibold text-xl tracking-tight">

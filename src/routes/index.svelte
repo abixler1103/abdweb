@@ -10,16 +10,43 @@
   }
 </script>
 
-<br />
+<div class="bg-adb-pink h-2">&nbsp;</div>
+<div class="flex mt-2 px-4 object-center">
+  <div class="w-1/2 ">
+    <a href="/">
+      <img src="/abd_logo_transparent.png" alt="Ashley Bixler Design Logo" />
+    </a>
+  </div>
+
+  <div class="w-1/2">
+    <a href="/ashley_bixler_resume_2019.pdf">
+      <button
+        class="hover:bg-yellow-400 hover:text-adb-teal rounded inline-flex
+        items-center bg-adb-teal text-white text-sm font-bold py-2 px-8
+        border-gray-500 shadow-outline">
+        <svg
+          class="fill-current w-4 h-4 mr-2"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20">
+          <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+        </svg>
+        <span>Download Resume</span>
+      </button>
+    </a>
+  </div>
+</div>
+
 <div class="min-h-screen flex flex-col font-sans">
   <div class="flex">
-    <div class="flex-1 text-left px-1 py-1 m-1">
-      <p class="text-9xl text-left font-serif text-adb-teal">
+    <div class="flex-1 text-left px-4 py-1 m-1">
+      <p
+        class="text-9xl text-left font-serif text-adb-teal leading-tight
+        tracking-widest font-hairline">
         Let's
-        <i>design</i>
+        <u>design</u>
         the future together.
       </p>
-      <p class="text-5xl text-left font-sans text-adb-pink text-bold">
+      <p class="text-4xl text-left text-adb-pink font-black mt-4">
         While delivering impactful business results.
       </p>
     </div>

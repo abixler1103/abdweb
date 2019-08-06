@@ -4,8 +4,8 @@
   export let segment;
 </script>
 
-<Nav {segment} />
+<!--<Nav {segment} />-->
 
-<main class="bg-adb-background mx-auto my-0">
+<main class="bg-adb-background mx-auto">
   <slot />
 </main>
