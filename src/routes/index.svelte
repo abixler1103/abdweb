@@ -11,8 +11,8 @@
 </script>
 
 <div class="bg-adb-pink h-2">&nbsp;</div>
-<div class="flex mt-2 px-4 object-center">
-  <div class="w-1/2 ">
+<div class="flex mt-2 px-4">
+  <div class="w-2/3 ">
     <a href="/">
       <img src="/abd_logo_transparent.png" alt="Ashley Bixler Design Logo" />
     </a>
@@ -36,7 +36,7 @@
   </div>
 </div>
 
-<div class="min-h-screen flex flex-col font-sans">
+<div class="flex flex-col font-sans">
   <div class="flex">
     <div class="flex-1 text-left px-4 py-1 m-1">
       <p
@@ -63,20 +63,20 @@
     </div>
   </div>
 
-  <br />
-  <br />
-
-  <div class="flex bg-white text-gray-800 p-10">
-    <div class="w-1/3 bg-white h-auto flex-1">
+  <div
+    class="flex bg-repeat bg-center p-10 mt-4 bg-transparent"
+    style="background-image: url('./glamorous.svg'); background-color: #d6144e;
+    opacity: 0.5;">
+    <div class="w-1/3 h-auto flex-1">
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <img class="w-full" src="hp_web.png" alt="Website screenshot" />
-        <div class="px-6 py-4">
+        <div class="px-6 py-4 bg-white">
           <div class="font-bold text-xl mb-2">Web</div>
           <p class="text-gray-700 text-base">
             Web applications that deliver results.
           </p>
         </div>
-        <div class="px-6 py-4">
+        <div class="px-6 py-4 bg-white">
           <span
             class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm
             font-semibold text-gray-700 mr-2">
@@ -95,14 +95,14 @@
         </div>
       </div>
     </div>
-    <div class="w-1/3 bg-white h-auto flex-1">
+    <div class="w-1/3 h-auto flex-1">
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <img class="w-full" src="hp_logo.png" alt="Logo screenshot" />
-        <div class="px-6 py-4">
+        <div class="px-6 py-4 bg-white">
           <div class="font-bold text-xl mb-2">Identity</div>
           <p class="text-gray-700 text-base">Crafting unique brands.</p>
         </div>
-        <div class="px-6 py-4">
+        <div class="px-6 py-4 bg-white">
           <span
             class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm
             font-semibold text-gray-700 mr-2">
@@ -122,19 +122,19 @@
       </div>
     </div>
 
-    <div class="w-1/3 bg-white h-auto flex-1">
+    <div class="w-1/3 h-auto flex-1">
       <div class="max-w-sm rounded overflow-hidden shadow-lg">
         <img
           class="w-full"
           src="hp_mobile.png"
           alt="Mobile application screenshot" />
-        <div class="px-6 py-4">
+        <div class="px-6 py-4 bg-white">
           <div class="font-bold text-xl mb-2">Mobile</div>
           <p class="text-gray-700 text-base">
             Functional mobile user interface design.
           </p>
         </div>
-        <div class="px-6 py-4">
+        <div class="px-6 py-4 bg-white">
           <span
             class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm
             font-semibold text-gray-700 mr-2">
@@ -157,13 +157,12 @@
 </div>
 
 <!-- FOOTER -->
-<div class="flex bg-adb-teal text-sm font-bold p-2">
-  <div class="flex-1 text-left px-2 py-2 m-2 text-adb-yellow">
-    <div
-      class="rounded inline-flex items-center bg-adb-teal text-yellow text-sm
-      font-bold py-2 px4">
+<div class="flex items-center h-auto p-8 bg-adb-teal text-sm font-bold">
+
+  <div class="flex bg-adb-teal text-white text-lg font-bold p-6">
+    <div>
       <svg
-        class="fill-current w-4 h-4 mr-2"
+        class="fill-current w-4 h-4 text-adb-yellow text-left"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20">
         <path
@@ -172,18 +171,9 @@
           0 0 1-2 2v2h3a2 2 0 0 1 2 2v5.75zm-4 0V15a2 2 0 0 1-2-2v-1h-.5A1.5 1.5
           0 0 1 4 10.5V8H2.25A8.01 8.01 0 0 0 8 17.75z" />
       </svg>
-      <span>
-        <a href="mailto:ashley@ashleybixlerdesign.com">
-          ashley@ashleybixlerdesign.com
-        </a>
-      </span>
-    </div>
-    <br />
-    <div
-      class="rounded inline-flex items-center bg-adb-teal text-yellow text-sm
-      font-bold py-2 px4">
+      <br />
       <svg
-        class="fill-current w-4 h-4 mr-2"
+        class="fill-current text-adb-yellow w-4 h-4 mt-2"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20">
         <path
@@ -191,17 +181,31 @@
           0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8
           8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z" />
       </svg>
-      <span>+1 415 654 4517</span>
     </div>
+    <div>
+      &nbsp;
+      <a href="mailto:ashley@ashleybixlerdesign.com">
+        ashley@ashleybixlerdesign.com
+      </a>
+      <br />
+      &nbsp;&nbsp;
+      <br />
+      <span class="mt-4">+1 415 654 4517</span>
+    </div>
+
   </div>
-  <div class="flex-1 text-adb-yellow text-left">
+
+  <div class="flex-2 text-white ml-64">
     <img
-      class="bg-adb-yellow"
+      class="fill-current text-adb-yellow bg-adb-yellow mt-2"
       src="georgia.png"
       alt="State of Georgia"
       width="50"
       height="80" />
-    <p class="opacity-75">Lovingly crafted in Atlanta, GA</p>
+    <span class="text-gray-100 text-sm uppercase">Made in Georgia</span>
+    <br />
+    <br />
     &copy; 2019 Ashley Bixler Design LLC
   </div>
+
 </div>

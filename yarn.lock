@@ -1860,10 +1860,10 @@ normalize.css@^8.0.1:
   resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
   integrity sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==
 
-now@^16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/now/-/now-16.0.0.tgz#7f239ce797a25a24a400fb0de59b98ffad216efa"
-  integrity sha512-j8nx9vewGC0wPbKfxopIPrfNfshK8Rlbpre1Phxs9uQW9OqMeTtwL7msTqCHHNsCIuik6TW0TQA24jctsagR5A==
+now@^16.1.1:
+  version "16.1.1"
+  resolved "https://registry.yarnpkg.com/now/-/now-16.1.1.tgz#692c406158c21bb0371de137b5f9957c861a4810"
+  integrity sha512-SXro0fOBTVBn+A2wEYV63It706egm7swgo6qb8zp6g07pOK0PQ1smeO0wmdYbx2Kuk5+Deh5t92KnZQi8wZjzA==
 
 nth-check@^1.0.2:
   version "1.0.2"
@@ -2479,6 +2479,14 @@ readable-stream@^3.1.1:
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
 
+reduce-css-calc@^2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/reduce-css-calc/-/reduce-css-calc-2.1.6.tgz#050fe6ee7d98a1d70775d2e93ce0b713cee394d2"
+  integrity sha512-+l5/qlQmdsbM9h6JerJ/y5vR5Ci0k93aszLNpCmbadC3nBcbRGmIBm0s9Nj59i22LvCjTGftWzdQRwdknayxhw==
+  dependencies:
+    css-unit-converter "^1.1.1"
+    postcss-value-parser "^3.3.0"
+
 regenerate-unicode-properties@^8.0.2:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/regenerate-unicode-properties/-/regenerate-unicode-properties-8.1.0.tgz#ef51e0f0ea4ad424b77bf7cb41f3e015c70a3f0e"
@@ -2685,10 +2693,10 @@ rollup-pluginutils@^2.0.1, rollup-pluginutils@^2.3.3, rollup-pluginutils@^2.6.0,
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^1.12.0:
-  version "1.19.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.19.2.tgz#64f74ef9b743cbc31e5aa226c7bce0a767cd9a33"
-  integrity sha512-nH8Sr5MMhdq+Se4w9RsJiwIFJ7eHNt+UyqR8a1WKlP36+ruJnzRoXMeSXicdRScAyDhrdQQR7GUX6W41qHlp+A==
+rollup@^1.19.4:
+  version "1.19.4"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.19.4.tgz#0cb4e4d6fa127adab59b11d0be50e8dd1c78123a"
+  integrity sha512-G24w409GNj7i/Yam2cQla6qV2k6Nug8bD2DZg9v63QX/cH/dEdbNJg8H4lUm5M1bRpPKRUC465Rm9H51JTKOfQ==
   dependencies:
     "@types/estree" "0.0.39"
     "@types/node" "^12.6.9"
@@ -2875,18 +2883,18 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte-preprocess@^2.9.0:
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-2.15.0.tgz#ad1b68bfcaed95705c9b2e9ee44e1f24e5721c5f"
-  integrity sha512-3NjxG8rwKKdo0cBTJruclYG0d89scX/aHwX8NeQiCjfGIft6Py+qzoKXC7+6PUX6rC9cZdIPXeGRb4wJOMNgRA==
+svelte-preprocess@^2.15.1:
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-2.15.1.tgz#e73cb406ee2ec89aab5bdcc676db93754ce6908b"
+  integrity sha512-jsJrv/XPqIWS/sfo3FMSRl4+onED4kx/TmWI8u6tAdhXinGb/S2x+E2NfsCjI5N3v+KU6lMh4RjSxDJiz477Eg==
   dependencies:
     postcss-load-config "^2.0.0"
     strip-indent "^2.0.0"
 
-svelte@^3.0.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.7.0.tgz#242030f8862c7200264f8e67df611a101fa87727"
-  integrity sha512-Qp5qxdYghSwXADCdaTLmL4gDUzhSfi6X7oWDJaEGJQXkCn1a8zxIBDJe2oQS6oHQzZqwvcppPqIoOySNLRw34w==
+svelte@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.7.1.tgz#a4c8cbacb6a2a83c5f6a5dcf8b2e8a6b95f5761e"
+  integrity sha512-MKjFy3YZ2pNUVPTwLNQ9JAVx6KVwfYnm/vbUF/pKLrfDDZiCBKfWPwnffpwGlnIAn7aS+aJoKV0soj464DOs4Q==
 
 svgo@^1.0.0:
   version "1.3.0"
@@ -2907,10 +2915,10 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-tailwindcss@^1.0.1:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.0.6.tgz#4e9dbd5726d5bd5c634e7b49d0aa4ea03d112330"
-  integrity sha512-hhdvXpnlYNnxfZCpldMypSWRzgmoQbKBy3namGlsP0Gs+qM8EwF3DBVUPoq8wJYbBFjzrgatE4czWJ6f12Y9+Q==
+tailwindcss@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.1.1.tgz#e7a63b7431e90d24f3c5c4bcccd57050f47960a6"
+  integrity sha512-bstvs0QgrT2m4sM/lRXxzaTNYazEnmzu4U/oEYJs7lYu8tyBwRv5GhMOjDyuFwA0zAzeUeiP0kkSju5RlMao9w==
   dependencies:
     autoprefixer "^9.4.5"
     bytes "^3.0.0"
@@ -2925,6 +2933,7 @@ tailwindcss@^1.0.1:
     postcss-nested "^4.1.1"
     postcss-selector-parser "^6.0.0"
     pretty-hrtime "^1.0.3"
+    reduce-css-calc "^2.1.6"
 
 terser@^4.1.0:
   version "4.1.3"

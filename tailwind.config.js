@@ -15,7 +15,7 @@ module.exports = {
       '9xl': '6rem'
     },
     fontFamily: {
-      serif: ['Lato', 'Georgia']
+      sans: ['Raleway', 'Georgia']
     },
     extend: {
       colors: {
